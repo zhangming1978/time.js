@@ -94,6 +94,12 @@
             this.weekday(1);
             return this;
         },
+        
+        lastDayInCalendarMonth: function () {
+            this.endOfMonth();
+            this.weekday(7);
+            return this;
+        },
 
         /////////////////////////////////////
         // Stepping
